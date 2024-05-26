@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+.header {
+  display: flex;
+  background-color: white;
+  box-shadow: 0px 0px 4px 0px;
+}
+.header ul li {
+  float: left;
+}
+.header ul {
+  margin: 0;
+  list-style-type: none;
+}
+.header ul:last-child {
+  margin-left: 260px;
+}
+.header ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 30px 15px;
+  text-transform: uppercase;
+}
+.img img {
+  height: 69px;
+  width: 160px;
+}
